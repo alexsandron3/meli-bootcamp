@@ -32,11 +32,6 @@ func readFile() {
 }
 
 func readCustomers() {
-	defer func() {
-		if err := recover(); err != nil {
-			fmt.Println(err)
-		}
-	}()
 	_, err := os.ReadFile("customers.txt")
 	if err != nil {
 		panic("erro: o arquivo indicado não foi encontrado ou está danificado")
