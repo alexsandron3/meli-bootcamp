@@ -6,22 +6,9 @@ import (
 	"os"
 )
 
-type File struct {
-	FileName string
-	Id       string
-}
-
 func GenerateFileId() *string {
 	id := fmt.Sprintf("%d", rand.Intn(100))
 	return &id
-}
-
-type Customer struct {
-	Name        string
-	Surname     string
-	Rg          string
-	PhoneNumber string
-	Address     string
 }
 
 func readFile() {
