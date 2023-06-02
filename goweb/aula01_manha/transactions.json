@@ -1,0 +1,31 @@
+{
+  "Transações": [
+    {
+      "id": 1,
+      "código da transação": "ABC123",
+      "moeda": "USD",
+      "valor": 100.00,
+      "emissor": "John Doe",
+      "receptor": "Jane Smith",
+      "data da transação": "2023-06-01"
+    },
+    {
+      "id": 2,
+      "código da transação": "DEF456",
+      "moeda": "EUR",
+      "valor": 50.00,
+      "emissor": "Alice Johnson",
+      "receptor": "Bob Williams",
+      "data da transação": "2023-05-30"
+    },
+    {
+      "id": 3,
+      "código da transação": "GHI789",
+      "moeda": "GBP",
+      "valor": 75.00,
+      "emissor": "David Brown",
+      "receptor": "Emily Davis",
+      "data da transação": "2023-05-29"
+    }
+  ]
+}
